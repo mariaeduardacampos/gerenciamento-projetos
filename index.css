@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+.menu {
+margin-left: 5px;
+width: 20%;
+}
+
+.menu-superior {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #e2dfdf;
+    width: 100vw;
+    height: 10vh;
+}
+
+.menu-superior a{
+    padding: 2%;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/bakgroud-arcoiris.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    width: 18vh;
+}
+
+div{
+    float: none; 
+    clear: both;
+    width: 30%; 
+    margin: auto;
+    background:transparent;
+    
+  }
+  div ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  div li{
+    
+    float: none; 
+    width: 100%;
+    margin-bottom: 2px;
+    background: #e2dfdf;
+    
+  }
+  div li a{
+    display: block; 
+    width: 100%; 
+    padding: 20px; 
+    border-left: 5px solid; 
+    position: relative; 
+    z-index: 2;
+    text-decoration: none;
+    color: #444;
+    box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
+    transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s; 
+  }
+  div li a i { font-size:1.5em; }
+  div li a:hover{ border-bottom: 0px; color: #dbd7d7; }
+  div li:nth-child(1) a{ border-left: 10px solid #f7ed62; }
+  div li:nth-child(2) a{ border-left: 10px solid #ffab61; }
+  div li:nth-child(3) a{ border-left: 10px solid #b95f57; }
+  div li:nth-child(4) a{ border-left: 10px solid #e85151; }
+  div li:nth-child(5) a{ border-left: 10px solid #1acc78; }
+  div li:nth-child(6) a{ border-left: 10px solid #2e87d5; }
+  div li:nth-child(7) a{ border-left: 10px solid #8d5490; }
+  div li:nth-child(8) a{ border-left: 10px solid #d862b1; }
+  div li:nth-child(9) a{ border-left: 10px solid #83c5bf; }
+  div li:nth-child(10) a{ border-left: 10px solid #e7c894; }
+  div li a:after { 
+    content: "";
+    height: 100%; 
+    left: 0; 
+    top: 0; 
+    width: 0px;  
+    position: absolute; 
+    transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s; 
+    z-index: -1;
+  }
+  div li a:hover:after{ width: 100%; }
+  div li:nth-child(1) a:after{ background: #f7ed62; }
+  div li:nth-child(2) a:after{ background: #ffab61; }
+  div li:nth-child(3) a:after{ background: #b95f57; }
+  div li:nth-child(4) a:after{ background: #e85151; }
+  div li:nth-child(5) a:after{ background: #1acc78; }
+  div li:nth-child(6) a:after{ background: #2e87d5; }
+  div li:nth-child(7) a:after{ background: #8d5490; }
+  div li:nth-child(8) a:after{ background: #d862b1; }
+  div li:nth-child(9) a:after{ background: #83c5bf; }
+  div li:nth-child(10) a:after{ background: #e7c894; }
+
+
+  .sem-cor {
+    text-decoration: none !important;
+    color: black;
+}
+
+#divBusca{
+    background-color:#dedddd;
+    border:solid 2px #e1e7e7;
+    border-radius:10px;
+    width:270px;
+    height:32px;
+    margin-right: 10px;    
+}
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:15px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#d1d6d6;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
+
+  .row-nowrap {
+    flex-flow: row nowrap;
+  }
+  /* flex container */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+/*flex item*/
+.item {
+    width: 300px;
+    margin: 5px;
+    background: #d7d5d6;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.card1 {
+  width: 250px;
+  background-color: #f3e983;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  text-align: left;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.card2 {
+  width: 250px;
+  background-color: #5c8ae1;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  text-align: left;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.card3 {
+  width: 250px;
+  background-color: #7be15c;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  text-align: left;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+
+.direita{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    
+}
+
+.botao_adicionar {
+
+  width: 200px;
+  height: 35px;
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  border:none;
+  background-color: #f0f0f0;
+  color: #000000;
+  text-align: center;
+  
+}
+
+.botao_voltar {
+
+  width: 200px;
+  height: 35px;
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  border:none;
+  background-color: #f0f0f0;
+  color: #000000;
+  text-align: center;
+}
